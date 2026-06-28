@@ -3,7 +3,7 @@ require_once '../config/config.php';
 $page_title = "My Profile";
 include '../includes/user/header.php';
 
-$user = get_current_user($pdo);
+$user = get_auth_user($pdo);
 $success = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

@@ -8,7 +8,7 @@ function is_logged_in(): bool {
     return !empty($_SESSION['user_id']);
 }
 
-function get_current_user(PDO $pdo): ?array {
+function get_auth_user(PDO $pdo): ?array {
     if (!is_logged_in()) return null;
     $stmt = $pdo->prepare("SELECT * FROM users WHERE id = ? AND status = 'active'");
     $stmt->execute([$_SESSION['user_id']]);
