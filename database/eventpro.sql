@@ -368,9 +368,9 @@ CREATE TABLE IF NOT EXISTS `audit_logs` (
 
 -- Users (Passwords are bcrypt hashed: Admin@123, Org@123, User@123)
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `phone`, `role`, `status`) VALUES
-(1, 'System Administrator', 'admin@eventpro.com', '$2y$12$K16iQW1xS1tO6Hn1aP/K/.0s3R71yM.A1b02b1c2d3e4f5g6h7i8j', '+91 9876543210', 'admin', 'active'),
-(2, 'Grand Events India', 'organizer@eventpro.com', '$2y$12$K16iQW1xS1tO6Hn1aP/K/.0s3R71yM.A1b02b1c2d3e4f5g6h7i8j', '+91 9876543211', 'organizer', 'active'),
-(3, 'Rahul Sharma', 'user@eventpro.com', '$2y$12$K16iQW1xS1tO6Hn1aP/K/.0s3R71yM.A1b02b1c2d3e4f5g6h7i8j', '+91 9876543212', 'user', 'active');
+(1, 'System Administrator', 'admin@eventpro.com', '$2y$10$yKAYEljaGqpTFuE601EjUOIJA6HOfFpyuIq8ItmUWitL5TNoKB.zC', '+91 9876543210', 'admin', 'active'),
+(2, 'Grand Events India', 'organizer@eventpro.com', '$2y$10$sXtI68kHfx4fscdaKdeB7.ofIoQXRnMvs33aSXkz5Mn6lHVjNz7qO', '+91 9876543211', 'organizer', 'active'),
+(3, 'Rahul Sharma', 'user@eventpro.com', '$2y$10$NWmNOZh6QW7aIZBXV7m5KeBRm2RR4BPbKY/pVSSxLtTNu9ZvRB6AW', '+91 9876543212', 'user', 'active');
 
 INSERT INTO `organizers` (`id`, `user_id`, `org_name`, `bio`, `website`, `phone`, `address`, `verified`) VALUES
 (1, 2, 'Grand Events India Pvt Ltd', 'Leading event management company organizing tech conferences, music fests, and workshops across India.', 'https://grandevents.com', '+91 9876543211', 'Suite 402, Tech Park, Bangalore', 1);

@@ -1,0 +1,14 @@
+[2026-06-28 13:10:54] TO: admin@eventpro.com | SUBJECT: Reset Your Password - EventPro
+<h2>Hi System Administrator,</h2>
+             <p>We received a request to reset your password. Click the button below to choose a new password. This link is valid for 1 hour.</p>
+             <a href='http://localhost/YUG/reset-password.php?token=384834d3a342854c8697a8b553196e8a8863428644d3c6562a1ad33f3cea3999' class='btn'>Reset Password</a>
+             <p style='margin-top:20px; font-size:12px; color:#777;'>If you didn't request this, you can safely ignore this email.</p>
+
+-------------------
+[2026-06-28 13:16:11] TO: malvidevendr2025@gmail.com | SUBJECT: Reset Your Password - EventPro
+<h2>Hi Malvi Devendr,</h2>
+             <p>We received a request to reset your password. Click the button below to choose a new password. This link is valid for 1 hour.</p>
+             <a href='http://localhost/YUG/reset-password.php?token=375bb90993f71a24ee4eaabb9b9ae456dad6ea09eea126f27cf7af7ef565ca8e' class='btn'>Reset Password</a>
+             <p style='margin-top:20px; font-size:12px; color:#777;'>If you didn't request this, you can safely ignore this email.</p>
+
+-------------------
